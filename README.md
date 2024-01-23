@@ -1,5 +1,4 @@
 # css-frameworks-ca
-Replace this text with a description of your social media project.
+InstaConnect is a social media platform designed to connect people from all around the world. Built using HTML, SCSS, and Bootstrap, it offers a responsive and user-friendly interface for seamless social interaction.
 
 
-// "watch": "sass --watch src/scss/index.scss:dist/css/index.css & live-server"//
