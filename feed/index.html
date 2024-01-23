@@ -12,12 +12,14 @@
       src="https://kit.fontawesome.com/0933736d52.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>Instaconnect - Feed</title>
   </head>
   <body>
     <header>
       <nav class="navbar justify-content-start navbar-custom">
-        <a class="navbar-brand fs-4 ps-4">InstaConnect</a>
+        <a href="/feed/index.html" class="navbar-brand fs-4 ps-4"
+          >InstaConnect</a
+        >
         <ul class="navbar-nav d-flex flex-row">
           <li class="nav-item px-4">
             <a href="/feed/index.html" class="nav-link">Feed</a>
@@ -78,13 +80,19 @@
         <!--Section2  Grid Column -->
         <section class="col">
           <div class="row d-flex justify-content-around mb-5">
-            <div class="col-10 col-sm-5 col-md-4 mx-3  mb-3">
+            <div class="col-10 col-sm-5 col-md-4 mx-3 mb-3">
               <div class="input-group position-relative">
-                <input type="text" class="form-control border-primary text-center rounded-1" placeholder="Search posts" />
+                <input
+                  type="text"
+                  class="form-control border-primary text-center rounded-1"
+                  placeholder="Search posts"
+                />
                 <i class="fa fa-magnifying-glass position-absolute"></i>
               </div>
             </div>
-            <div class="col-10 col-sm-5 col-md-4 mx-3 rounded-1 text-center mb-3">
+            <div
+              class="col-10 col-sm-5 col-md-4 mx-3 rounded-1 text-center mb-3"
+            >
               <select class="form-control text-center border-primary">
                 <option value="">Sort by</option>
                 <option value="newest">Newest</option>
@@ -183,25 +191,43 @@
                 <figcaption class="visually-hidden">Post-image</figcaption>
               </figure>
             </article>
+            <article class="col-12 col-sm-4">
+              <figure>
+                <img
+                  src="/images/dog11.jpg"
+                  alt="cat with sun glasses"
+                  class="img-fluid"
+                />
+                <figcaption class="visually-hidden">Post-image</figcaption>
+              </figure>
+            </article>
           </div>
         </section>
       </div>
     </main>
     <footer class="bg-primary text-white py-5">
-      <div class="row text-center">
-        <ul class="col list-unstyled ">
-          <li><a class=" nav-link " href="#">About us</a></li>
-          <li><a class=" nav-link " href="#">Contact us</a></li>
-          <li><a class=" nav-link " href="#">FAQ</a></li>
-        </ul>
-        <div class="col align-items-end d-flex justify-content-center">
-          <p class="mb-0">© Copyright 2024 InstaConnect.</p>
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col-sm-6">
+            <p class="fw-semibold">Quick Links</p>
+            <ul class="col list-unstyled">
+              <li><a class="nav-link" href="#">About us</a></li>
+              <li><a class="nav-link" href="#">Contact us</a></li>
+              <li><a class="nav-link" href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <p class="fw-semibold">Other platforms</p>
+            <ul class="col list-unstyled">
+              <li><a class="nav-link" href="#">Lensecove</a></li>
+              <li><a class="nav-link" href="#">ShareShack</a></li>
+              <li><a class="nav-link" href="#">PixPal</a></li>
+            </ul>
+          </div>
         </div>
-        <ul class="col list-unstyled ">
-          <li><a class=" nav-link " href="#">Lensecove</a></li>
-          <li><a class=" nav-link " href="#">ShareShack</a></li>
-          <li><a class=" nav-link " href="#">PixPal</a></li>
-        </ul>
+        <div class="col align-items-end d-flex justify-content-center">
+          <p class="mb-0 mt-4">© Copyright 2024 InstaConnect.</p>
+        </div>
       </div>
     </footer>
   </body>

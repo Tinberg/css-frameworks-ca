@@ -17,12 +17,17 @@ $body-bg: #f0fcfa;
 // --Custom navbar styles
 .navbar-custom {
   background-color: $primary; 
-  height: 85px;
+  height: 100px;
 
   .navbar-brand,
   .nav-link {
     @include text-hover; 
   }
+}
+
+//makes the content appear in the middle for smaller screens
+.m-hight {
+  min-height: 100vh;
 }
 
 // --Border line on profile/index.html and feed/index.html
