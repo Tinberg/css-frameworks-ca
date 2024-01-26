@@ -12,4 +12,5 @@ InstaConnect is a social media platform designed to connect people from all arou
 ![317755_badge_html_html5_achievement_award_icon (1)](https://github.com/Tinberg/Rainydays/assets/126072224/38fa6731-648a-4696-a360-2333939feb36)  ![317756_badge_css_css3_achievement_award_icon](https://github.com/Tinberg/Rainydays/assets/126072224/1f673d3c-9820-481f-9610-3d22010c8359) 
 
 
-![Bootstrap](https://github.com/Tinberg/css-frameworks-ca/assets/126072224/e86e1627-56d6-400b-9bf2-f650e8d43b5f)
+<img src="https://github.com/Tinberg/css-frameworks-ca/blob/main/assets/126072224/e86e1627-56d6-400b-9bf2-f650e8d43b5f.png?raw=true" alt="Bootstrap" width="100">
+
