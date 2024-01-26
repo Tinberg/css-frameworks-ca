@@ -49,6 +49,9 @@ npm install live server
 npm run dev
 
 ```
+### Custom Sass Styles
+
+Customize the application's styles by modifying the Sass files in the `src/scss/` directory. After making changes, run `npm run build` to compile the Sass into the `dist/css` directory.
 
 
 
